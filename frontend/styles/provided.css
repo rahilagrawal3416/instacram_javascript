@@ -1,0 +1,296 @@
+/* --------------------------------------------------- CSS given at the start ----------------------------------------------- */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    height: 100%;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.banner>* {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+}
+
+.post {
+    max-width: 450px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.post-title {
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.post-thumb {
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid snow;
+}
+
+.post-image {
+    width: 450px;
+    height: 350px;
+}
+
+.center {
+    margin: auto;
+    width: 13.5%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .post {
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, .0975);
+        border-top: 1px solid rgba(0, 0, 0, .0975);
+        max-height: 60vh;
+    }
+
+    .post-image {
+        max-width: 100%;
+        max-height: 60vh;
+    }
+
+    #feed>* {
+        flex: 1 1 45%;
+        height: auto;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+/* --------------------------------------------------- MY CSS ----------------------------------------------------------- */
+
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.input-text {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.input-text:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.icon-edit,
+.icon-comment {
+    cursor: pointer;
+    color: blue;
+    font-size: 30px !important;
+}
+
+.icon-cancel-outline,
+.icon-user-delete-outline,
+.icon-trash-empty {
+    color: red;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 30px !important;
+    padding-right: 25px !important;
+}
+
+.icon-user-add-outline, .icon-floppy {
+    color: greenyellow;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 30px !important;
+    padding-right: 25px !important;
+    position: relative;
+    display: inline-block;
+}
+
+.icon-user-o,
+.icon-rss,
+.icon-upload-cloud,
+.icon-logout{
+    cursor: pointer;
+    font-size: 30px !important;
+    padding-right: 25px !important;
+}
+
+.icon-upload-cloud {
+    color: lightskyblue;
+}
+
+.icon-rss{
+    color: orange;
+}
+
+.icon-login,
+.icon-id-card-o {
+    cursor: pointer;
+    font-size: 25px !important;
+    padding-right: 15px !important;
+    color: black;
+}
+
+.icon-heart,
+.icon-heart-filled {
+    cursor: pointer;
+    font-size: 30px !important;
+    padding-right: 25px !important;
+    color: red;
+}
+
+#nFollowers,
+#nPosts {
+    color: blue;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.icon-picture-outline {
+    padding-left: 20px;
+}
+
+.button-panel {
+    max-width: 450px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.authorName {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+}
+
+.profileDetails {
+    float: right;
+    padding: 50px;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+}
+
+.links {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-right: 10px;
+}
+
+
+#nLikes{
+    padding-left: 30px;
+}
+
+.button6Save {
+    background-color: Transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* ------------------------------------------------ CSS Borrowed from the Internet ----------------------------------------------- */
+
+/* This CSS for upload button was borrowed from : https://blog.benestudio.co/custom-file-upload-button-with-pure-css-5aacf39aa0a */
+/* --------------------------------- */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+/* --------------------------------- */
+
+
+/* This CSS for somewhat fancy buttons was taken from : https://fdossena.com/?p=html5cool/buttons/i.frag */
+/* ------------------------------------------- */
+.button6 {
+    display: inline-block;
+    padding: 0.7em 1.7em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #3369ff;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+    text-align: center;
+    position: relative;
+}
+
+.button6:active {
+    box-shadow: inset 0 0.6em 2em -0.3em rgba(0, 0, 0, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+}
+/* ------------------------------------------- */
+
+/* This CSS for somewhat fancy buttons was taken from : https://designshack.net/articles/css/the-10-best-script-and-handwritten-google-web-fonts/ */
+/* ------------------------------------------- */
+
+.banner {
+  font: 100 30px/1.5 'Cookie', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+/* ------------------------------------------- */

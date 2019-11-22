@@ -1,0 +1,130 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "2d76f2c8d13be40694ecadfea7fb83c3",
+      "css": "logout",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "b86df50a2d898bfcd371fa86c0b8b2fb",
+      "css": "user-o",
+      "code": 62144,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a1d4b614f12cfe2b5aa66313ad88c90c",
+      "css": "users-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "4e77fc7fc71e69ba520ffa3b4d898e55",
+      "css": "upload-cloud",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "3o0pu4qbmgvcv8zqb5o3qh8vttzvhpy7",
+      "css": "rss",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "41087bc74d4b20b55059c60a33bf4008",
+      "css": "edit",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash-empty",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3b00728aa97ad1a2581d414bd9d650bc",
+      "css": "heart",
+      "code": 59398,
+      "src": "typicons"
+    },
+    {
+      "uid": "hi76m8qggwn5lbl286oeqp64q0n8kusy",
+      "css": "heart-filled",
+      "code": 59399,
+      "src": "typicons"
+    },
+    {
+      "uid": "6a7ed3214c9049148cbdb01825e5efc2",
+      "css": "picture",
+      "code": 59400,
+      "src": "typicons"
+    },
+    {
+      "uid": "96819a35f3d743b4df0ea2e92803eeb5",
+      "css": "picture-outline",
+      "code": 59401,
+      "src": "typicons"
+    },
+    {
+      "uid": "813cb2527308990d4870591d9d76f8cd",
+      "css": "right-open-outline",
+      "code": 59402,
+      "src": "typicons"
+    },
+    {
+      "uid": "d4ebe676479ff9cb41c7797f003aa54d",
+      "css": "left-open-outline",
+      "code": 59403,
+      "src": "typicons"
+    },
+    {
+      "uid": "24aba8757d4a7b49568c98a577a85df3",
+      "css": "cancel-outline",
+      "code": 59404,
+      "src": "typicons"
+    },
+    {
+      "uid": "b9cd6e266f74ac97272b2fabbfbd0b85",
+      "css": "user-add-outline",
+      "code": 59405,
+      "src": "typicons"
+    },
+    {
+      "uid": "344c1c070cd0018ced51d3f051c6f4dd",
+      "css": "user-delete-outline",
+      "code": 59406,
+      "src": "typicons"
+    },
+    {
+      "uid": "191bcf63575a78def53c907c3d3bf7f0",
+      "css": "floppy",
+      "code": 59407,
+      "src": "entypo"
+    },
+    {
+      "uid": "5b1a68729f60f8be3769238379d1b8e9",
+      "css": "comment",
+      "code": 59408,
+      "src": "linecons"
+    },
+    {
+      "uid": "a204f0fa972408eaae5a363c444991b2",
+      "css": "login",
+      "code": 59409,
+      "src": "entypo"
+    },
+    {
+      "uid": "2e6301ac94d0d51566727b9199259451",
+      "css": "id-card-o",
+      "code": 62147,
+      "src": "fontawesome"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+Date    Start   Stop    Activity        Comments
+13 Oct  12:00   12:30   Read Spec       Read spec, make notes, understand functionality
+        12:30   12:45   Setup           Setup Repo, Download Files, install dependencies, npm start!
+        14:00   15:30   Coding          Start some HTML, add input boxes, buttons, change banner
+        16:30   17:00   Coding          Add login and register with mock data in FE
+        18:00   20:00   Coding          Fix issues
+        21:00   22:30   Coding          Add API/Backend Integration for Login and register (struggle)
+        23:00   23:15   Testing         Try various scenarios to see what backend sends backend and see how to handle 
+        23:30   1:00    Coding          Started implementing feed functionality
+14 Oct  11:00   12:10   Coding          Level 0 and 1 is more or less done. 
+        12:15   13:00   Coding          Removed form and submit for login and register. Enter button won't work but URL issue looks as if its fixed.
+                                        Printing Name of User for likes. (Level 2 to start next)
+        14:15   15:35   Coding          Started Implementing Level 2 - Viewing likes and comments
+        18:00   20:30   Coding          Like,Unlike, Profile added.
+        21:00   22:30   Coding          Save Profile. Cancel Changed in Profile. Go back to Feed.
+16 Oct  15:15   17:50   Coding          Change implentation to inject html instead of having it inside index.html at the start
+                                        Create screen loading functions
+17 Oct  19:30   20:00   Bug Fix         Forms can now be submitted using Enter Key!
+        20:00   20:30   Coding          Learnt how to upload an image. 
+18 Oct  15:00   16:30   Coding          CSS for Buttons and Input Fields
+19 Oct  11:50   12:50   Coding          Make new post, See user's own posts
+20 Oct  14:15   15:45   Coding          Change Post Structure slightly, Fix buttons bugs, Pagination added (3 posts on each page by dafault)
+        18:30   21:00   Coding          Users can add comments, live updates for likes, comments and unlikes!! 
+21 Oct  19:00   22:25   Coding          User Pages, Search for Users using username
+22 Oct  19:15   19:30   Bug Fix         Fixed comment Bug. Fixed search bug.
+        19:30   21:15   Coding          Added Follow/Unfollow functionality
+23 Oct  15:00   16:15   Coding          Changed the like feature look and functionality
+                                        Started working on delete.
+        17:15   18:40   Coding          Changed new post form to help work on edit post
+        21:30   22:30   Coding          Finished working on edit posts
+25 Oct  10:30   11:40   Bug Fix         Fixed dynamic like and comment, changed appearance of posts.
+25 Oct  21:00   00:00   Coding          Making UI Look better. Changed buttons to icons wherever possible
+26 Oct  00:00   00:50   Coding          Changed layout of few pages.
+27 Oct  13:00   18:30   Coding          UI Changes. Slick UI progress.
+27 Oct  20:00   01:15   Coding          Infinte Scroll. Need to make it better looking but it works for now
+28 Oct  10:30   11:10   Coding          Added loader for infinite scroll, Minor look change to search
+
+
+                -- CHECKLIST --
+                -- Level 0 --
+Login
+Registration
+Feed Interface
+                -- Level 1 --
+Login
+Registration
+Feed Interface
+                -- Level 2 --
+Show likes      
+Show Comments
+Like User Generated Content
+Post New Content                        
+Profile
+Pagination
+Make profile interesting
+                -- Level 3 --
+Infinite Scroll
+Comments
+Live Update
+Update Profile
+User Pages
+Follow
+Delete Post
+Update Post
+                -- Level 4 --
+Slick UI
